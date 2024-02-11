@@ -51,8 +51,12 @@ body {
     fill: #cdd6f4;
 }
 
-.icon-smaller {
+.smaller {
     width: 1.75rem;
     height: 1.75rem;
-    fill: #cdd6f4;
+}
+
+.icon:hover {
+    fill: #89b4fa;
+    transition: 0.2ss ease-in-out;
 }
