@@ -58,5 +58,5 @@ body {
 
 .icon:hover {
     fill: #89b4fa;
-    transition: 0.2ss ease-in-out;
+    transition: 0.25s ease-in-out;
 }
