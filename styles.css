@@ -33,30 +33,37 @@ body {
 }
 
 .container ul {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    text-decoration: none;
-    list-style: none;
-    margin-top: 1rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 1rem;
 }
 
 .container ul li {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 .icon {
-    width: 2rem;
-    height: 2rem;
-    fill: #cdd6f4;
+  width: 2rem;
+  height: 2rem;
+  fill: #cdd6f4;
 }
 
 .smaller {
-    width: 1.75rem;
-    height: 1.75rem;
+  width: 1.75rem;
+  height: 1.75rem;
 }
 
 .icon:hover {
-    fill: #89b4fa;
-    transition: 0.25s ease-in-out;
+  fill: #89b4fa;
+  transition: 0.25s ease-in-out;
+}
+
+.comment {
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 0.25rem;
+	opacity: 0.5;
 }
